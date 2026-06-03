@@ -225,11 +225,12 @@ export function Hero() {
               variants={fadeUp} custom={2.4} initial="hidden" animate="visible"
               className="text-neutral-400 text-base md:text-[1.05rem] leading-[1.8] mb-9 max-w-[500px]"
             >
-              Bridging{" "}
+              นักศึกษาที่มุ่งมั่นในการเชื่อมโยง{" "}
               <span className="font-semibold text-[#4ade80]">Data Analytics</span>,{" "}
-              <span className="font-semibold text-white">Full-Stack Development</span>, and{" "}
+              <span className="font-semibold text-white">Full-Stack Development</span>{" "}
+              และ{" "}
               <span className="font-semibold text-neutral-200">IT Infrastructure</span>{" "}
-              into solutions that actually matter.
+              ให้กลายเป็นโซลูชันที่ใช้งานได้จริง
             </motion.p>
 
             {/* Meta pills */}
@@ -238,8 +239,8 @@ export function Hero() {
               className="flex flex-wrap gap-3 text-xs text-neutral-600 mb-10"
             >
               {[
-                { icon: <GraduationCap size={13} />, text: "PSU Hat Yai · BIS Year 3" },
-                { icon: <MapPin size={12} />,         text: "Hat Yai, Thailand" },
+                { icon: <GraduationCap size={13} />, text: "คณะวิทยาการจัดการ · ระบบสารสนเทศทางธุรกิจ · ชั้นปีที่ 3" },
+                { icon: <MapPin size={12} />,         text: "มหาวิทยาลัยสงขลานครินทร์" },
               ].map((m) => (
                 <span key={m.text} className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-white/[0.06] bg-white/[0.02]">
                   <span className="text-neutral-700">{m.icon}</span> {m.text}
