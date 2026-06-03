@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nick | Full-Stack Developer & Data Analyst",
+  title: "Komkrit | Full-Stack Developer & Data Analyst",
   description:
-    "Personal portfolio of Komkrit Photnimdaeng (Nick) — bridging Data Analytics, Full-Stack Mastery, and High-Performance IT Infrastructure.",
+    "Personal portfolio of Komkrit Ponimdang (Komkrit) — bridging Data Analytics, Full-Stack Mastery, and High-Performance IT Infrastructure.",
 };
 
 export default function RootLayout({
